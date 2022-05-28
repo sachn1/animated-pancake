@@ -17,8 +17,8 @@ import numpy as np
 import plotly.graph_objs as go
 from dash.dependencies import Input, Output, State
 
-import global_vars
-from plot_creation import Plot_Creator
+import src.global_vars as global_vars
+from src.plot_creation import Plot_Creator
 
 log = logging.getLogger("werkzeug")
 log.setLevel(logging.ERROR)

@@ -20,7 +20,7 @@ from sklearn import preprocessing
 from sklearn.metrics import pairwise_distances, r2_score
 from tqdm.auto import tqdm
 
-import global_vars
+import src.global_vars as global_vars
 import lime
 import lime.lime_tabular
 

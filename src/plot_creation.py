@@ -17,8 +17,8 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objs as go
 
-import global_vars
-from lime_processor import LIME_Explainer
+import src.global_vars as global_vars
+from src.lime_processor import LIME_Explainer
 
 
 class Plot_Creator:
