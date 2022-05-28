@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "Interpreting the features of intracranial aneurysms using LIME framework"
+version = "0.2.0"
+description = "Exploring the LIME framework to help us interpret the features and their importance to each aneurysm and provide an interactive interface for visualization."
+authors = ["Sachin Nandakumar <sachnandmenon@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+matplotlib = "^3.3.4"
+scipy = "^1.5.4"
+scikit-learn = "^0.24.2"
+scikit-image = "^0.17.2"
+plotly = "^5.8.0"
+gunicorn = "^20.1.0"
+xgboost = "0.90.0"
+dash = "1.19.0"
+dash_gif_component = "1.0.2"
+dash_bootstrap_components = "0.11.2"
+tqdm = "4.64.0"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
