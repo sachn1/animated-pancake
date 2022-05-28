@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Interpreting the features of intracranial aneurysms using LIME framework"
+name = "interpret_feature_importance_lime"
 version = "0.2.0"
 description = "Exploring the LIME framework to help us interpret the features and their importance to each aneurysm and provide an interactive interface for visualization."
 authors = ["Sachin Nandakumar <sachnandmenon@gmail.com>"]
